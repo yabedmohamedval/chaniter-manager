@@ -1,7 +1,5 @@
 # Chantier Manager — Application mobile + API
 
-📅 **Date de remise** : **Lundi 17 Décembre 2025 à 19h15** (dépôt sur Teams)  
-🔗 **Lien du dépôt** : <METTRE_ICI_LE_LIEN_DU_REPO>
 
 ## 1) Présentation
 Chantier Manager est une application permettant de gérer des chantiers (suivi, détails, anomalies, équipes, véhicules, matériels) avec une API sécurisée et une application mobile Flutter.

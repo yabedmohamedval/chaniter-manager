@@ -1,0 +1,77 @@
+######################################
+# OS / Général
+######################################
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*~
+
+######################################
+# IDE (IntelliJ / Android Studio / VSCode)
+######################################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+.project
+.classpath
+.settings/
+
+######################################
+# Backend Spring Boot (chantier-manager-api)
+######################################
+chantier-manager-api/target/
+chantier-manager-api/.mvn/wrapper/maven-wrapper.jar
+chantier-manager-api/logs/
+chantier-manager-api/**/*.log
+
+# fichiers de config locaux (si tu en as)
+chantier-manager-api/src/main/resources/application-local.properties
+chantier-manager-api/src/main/resources/application-local.yml
+chantier-manager-api/src/main/resources/application-local.yaml
+chantier-manager-api/.env
+chantier-manager-api/.env.*
+
+######################################
+# Uploads (photos) - IMPORTANT
+######################################
+uploads/
+**/uploads/
+
+######################################
+# Flutter (chantier_manager_mobile)
+######################################
+chantier_manager_mobile/.dart_tool/
+chantier_manager_mobile/.packages
+chantier_manager_mobile/.pub/
+chantier_manager_mobile/.pub-cache/
+chantier_manager_mobile/build/
+chantier_manager_mobile/.flutter-plugins
+chantier_manager_mobile/.flutter-plugins-dependencies
+chantier_manager_mobile/.metadata
+
+# Android (Flutter)
+chantier_manager_mobile/android/.gradle/
+chantier_manager_mobile/android/local.properties
+chantier_manager_mobile/android/**/build/
+chantier_manager_mobile/android/**/.cxx/
+chantier_manager_mobile/android/**/captures/
+chantier_manager_mobile/android/**/.idea/
+
+# Keystores (ne jamais versionner)
+*.jks
+*.keystore
+key.properties
+
+# iOS (Flutter)
+chantier_manager_mobile/ios/Pods/
+chantier_manager_mobile/ios/.symlinks/
+chantier_manager_mobile/ios/Flutter/ephemeral/
+chantier_manager_mobile/ios/Runner.xcworkspace/
+chantier_manager_mobile/ios/DerivedData/
+*.xcuserstate
